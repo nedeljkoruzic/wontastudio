@@ -1,0 +1,169 @@
+.Main3 {
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.naslovgd {
+    color: rgba(255, 255, 255, 0.20);
+   font-size: 160px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   
+}
+.pitanjegd {
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    place-content: center;  
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+.tekstgd {
+    color: #fff;
+    display: flex;
+    place-content: center;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.naslovgd2 {
+    margin-left: 30%;
+    color: rgba(255, 255, 255, 0.20);
+   font-size: 160px;
+}
+.dvadonjadugmeta {
+    width: 100%;
+    position:absolute;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.dugmedonje {
+    background:transparent;
+    color: #fff;
+    border-radius: 50px;
+    border: 4px solid #57A0FF;
+    width: 273px;
+    height: 81px;
+    padding: 15px 0;
+    cursor: pointer;
+    margin: 0px 100px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+.dugmedonje:hover {
+    background-color: #57A0FF;
+    transition: .3s;
+}
+.grupaslike {
+    width: 100%;
+    height: 100%;
+}
+.animated {
+margin-top: -60px;
+text-align: left;
+}
+.animated2 {
+    margin-top: -60px;
+}
+.desno {
+    text-align: left;
+}
+.levo {
+    margin-top: -60px;
+}
+@media (max-width: 1300px) {
+    .tekstgd {
+        color: #fff;
+        display: flex;
+        place-content: center;
+        font-size: 26px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+    .animated {
+        margin-top: -50px;
+        }
+    .levo {
+        margin-top: -50px;
+    }
+    .animated2 {
+        margin-top: -50px;
+    }
+}
+@media (max-width: 800px) {
+    .levo {
+        margin-top: -40px;
+    }
+    .animated {
+        margin-top: -40px;
+    }
+    .animated2 {
+        margin-top: -40px;
+    }
+    .tekstgd {
+        color: #fff;
+        display: flex;
+        place-content: center;
+        font-size: 24px;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+}
+@media (max-width: 600px) {
+    .levo {
+        margin-top: -30px;
+    }
+    .animated {
+        margin-top: -30px;
+    }
+    .animated2 {
+        margin-top: -30px;
+    }
+}
+@media (max-width: 500px) {
+    .pitanjegd {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .tekstgd {
+        font-size: 15px;
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+    .levo {
+        margin-top: -15px;
+    }
+    .animated {
+        margin-top: -15px;
+    }
+    .animated2 {
+        margin-top: -15px;
+    }
+}
+@media (max-width: 400px) {
+    .levo {
+        margin-top: -10px;
+    }
+    .animated {
+        margin-top: -10px;
+    }
+    .animated2 {
+        margin-top: -10px;
+    }
+}

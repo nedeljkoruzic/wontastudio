@@ -1,0 +1,247 @@
+.cooperation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.cooperation-container form {
+    max-width: 900px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+
+}
+.cooperation-container form #fullname2 {
+    color: #fff;
+    width: 750px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+margin: 18px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 16px;
+}
+.cooperation-container form #company2, #email2 {
+    color: #fff;
+    width: 365px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+margin: 18px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 16px;
+}
+.cooperation-container form input::placeholder {
+    font-size: 24px;
+    text-align: center;
+}
+.cooperation-container form textarea {
+    width: 750px;
+    border-radius: 100px;
+    border: 6px solid #57A0FF;
+    background: transparent;
+    height: 500px;
+    color: #fff;
+    outline: none;
+    padding-left:60px;
+    padding-right: 60px;
+    padding-top: 6px;
+    font-size: 20px;
+    font-family: Inter;
+}
+.cooperation-container form textarea::placeholder {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+#buttonsend2 {
+    width: 226px;
+    margin-top: 20px;
+    background-color: #57A0FF;
+	color: #1E0B1E;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    border: 6px solid #57A0FF;
+    border-radius: 100px;
+    height: 71px;
+}
+#buttonsend2:hover {
+    border: 6px solid #73b0ff;
+    background-color: #73b0ff;
+    transition: .3s;
+}
+#website {
+    margin-bottom: 18px;
+}
+#budget {
+    color: #fff;
+    width: 365px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+justify-content: left;
+margin-top: 18px;
+cursor: pointer;
+font-size: 24px;
+}
+#budget option {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.graphic-container form select {
+    color: #fff;
+    width: 365px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+margin: 18px;
+}
+#select {
+    font-size: 24px;
+    text-align: center;
+}
+#select option {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.bussines {
+    margin-top: -60px;
+    font-weight: 700;
+}
+.pozadinskaslika4 {
+    margin-top: -650px;
+    position: relative;
+    z-index: -1;
+    text-align: right;
+    width: 60%;
+    float: right;
+}
+@media (max-width: 1300px) {
+    .pozadinskaslika4 {
+        margin-top: -720px;
+        width: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .pozadinskaslika4 {
+        margin-top: -570px;
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .pozadinskaslika4 {
+        margin-top: -420px;
+        width: 100%;
+    }
+    .cooperation-container form {
+        height: 600px;
+    }
+    .cooperation-container form #fullname2 {
+        width: 365px;
+        margin: 10px;
+    }
+    .cooperation-container form #company2, #email2 {
+        margin: 10px;
+    }
+    .cooperation-container form textarea {
+        width: 82%;
+        height: 400px;
+        font-size: 16px;
+    }
+    .cooperation-container form textarea::placeholder {
+        font-size: 20px;
+    }
+    .cooperation-container form input::placeholder {
+        font-size: 20px;
+    }
+    #buttonsend2 {
+        width: 160px;
+        margin-top: 5px;
+        background-color: #57A0FF;
+        color: #1E0B1E;
+        cursor: pointer;
+        font-size: 24px;
+        text-align: center;
+        border: 6px solid #57A0FF;
+        border-radius: 100px;
+        height: 61px;
+    }
+    .bussines {
+        margin-top: -30px;
+    }
+
+}
+@media (max-width: 600px) {
+    .cooperation-container form {
+        height: 550px;
+    }
+    .cooperation-container form #company2, #email2 {
+        width: 70%;
+        height: 61px;
+        margin: 5px;
+        border: 5px solid #57A0FF;
+        font-size: 14px;
+    }
+    .cooperation-container form #fullname2 {
+        width: 70%;
+        height: 61px;
+       margin: 5px;
+       border: 5px solid #57A0FF;
+       font-size: 14px;
+    }
+    .cooperation-container form textarea {
+        width: 90%;
+      
+    }
+    .bussines {
+        margin-top: -14px;
+    }
+}
+@media (max-width: 500px) {
+    .pozadinskaslika4 {
+        margin-top: -280px;
+        width: 100%;
+    }
+    .cooperation-container form {
+        height: 400px;
+    }
+    .cooperation-container form textarea {
+        border: 5px solid #57A0FF;
+        height: 250px;
+        font-size: 20px;
+        border-radius: 60px;
+    }
+    .cooperation-container form #fullname2 {
+        margin: 5px;
+    }
+    .cooperation-container form #company2, #email2 {
+        margin: 5px;
+    }
+    .cooperation-container form input::placeholder {
+        font-size: 18px;
+        text-align: center;
+    }
+    .cooperation-container form textarea::placeholder {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}

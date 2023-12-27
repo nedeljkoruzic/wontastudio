@@ -1,0 +1,17 @@
+.contactimgs {
+    width: 100%;
+    height: 100%;
+}
+.contactimgsmob {
+    display: none;
+}
+@media (max-width: 500px) {
+    .contactimgs {
+        display: none;
+    }
+    .contactimgsmob {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}

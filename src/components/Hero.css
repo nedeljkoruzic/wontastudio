@@ -1,0 +1,205 @@
+.pocetnaslika {
+    top: -190px;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+.pocetnaslika2 {
+    display: none;
+}
+
+.heroaboutus {
+    position:relative;
+
+}
+.astronautimg {
+    width: 100%;
+    height: 100%;
+}
+.astronautmob {
+    display: none;
+   
+}
+.astronauttxt {
+    color: #fff;
+    text-align: left;
+   position: absolute;
+   top: 47%;
+   left: 49%;
+   font-size: 38px;
+   width: 50%;
+}
+.astronautdugme {
+    color: #fff;
+   position: absolute;
+   top: 91%;
+   left: 49%;
+   text-decoration: underline #57A0FF;
+   text-underline-offset: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+}
+.astronautdugme:hover {
+    color: #57A0FF;
+}
+.ourservivetext {
+    text-align: left;
+    margin-right: 1.2%;
+    width: 100%;
+}
+
+.pocetnaslika2 {
+    display: none;
+}
+@media (max-width: 1750px) {
+    .astronauttxt {
+       top: 42%;
+       
+       font-size: 30px;
+    }
+}
+@media (max-width: 1450px) {
+    .pocetnaslika {
+        top: -170px;
+    }
+    .astronauttxt {
+        top: 42%;
+        
+        font-size: 25px;
+     }
+}
+@media (max-width: 1250px) {
+    .pocetnaslika {
+        top: -150px;
+    }
+
+}
+@media (max-width: 1150px) {
+    .pocetnaslika {
+        top: -120px;
+    }
+    .astronauttxt {
+       top: 40%;
+       font-size: 20px;
+    }
+    .astronautdugme {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1040px) {
+    .pocetnaslika {
+        top: -105px;
+    }
+}
+@media (max-width: 950px) {
+    .pocetnaslika {
+        top: -105px;
+    }
+    .astronauttxt {
+        top: 40%;
+        
+        font-size: 20px;
+     }
+     .astronautdugme {
+         font-size: 1.3rem;
+     }
+}
+@media (max-width: 750px) {
+    .pocetnaslika {
+        top: -93px;
+    }
+    .astronauttxt {
+        top: 40%;
+        font-size: 15px;
+     }
+     .astronautdugme {
+         font-size: 1.1rem;
+     }
+}
+@media (max-width: 700px) {
+.pocetnaslika {
+    top: -10px;
+    height: 130%;
+    margin-bottom: 200px;
+}
+.ourservivetext {
+    
+    margin-right: 1.2%;
+    width: 100%;
+}
+.astronauttxt {
+    font-size: 10px;
+    
+}
+.astronautdugme {
+    font-size: 1rem;
+    margin-bottom: 60px;
+}
+.heroaboutus {
+   margin-top: -80px;
+
+}
+}
+
+@media (max-width: 700px) {
+.pocetnaslika {
+    top: -10px;
+    height: 130%;
+    margin-bottom: 200px;
+}
+
+}
+@media (max-width: 500px) {
+     .pocetnaslika {
+        display: none;
+     }
+     .astronautimg {
+        display: none;
+    }
+    .astronautmob {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+     .pocetnaslika2 {
+        display: flex;
+         width: 100%;
+    height: 100%;
+        top: -120px;
+        position: relative;
+        z-index: -1;
+     }
+     .heroaboutus {
+        margin-bottom: 30px;
+     }
+     .astronauttxt {
+        width: 95%;
+       position: relative;
+       top: 0%;
+       left:0%;
+       font-size: 15px;
+       text-align: justify;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .astronautdugme {
+        display: none;
+        font-size: 0.6rem;
+        text-underline-offset: 5px;
+    }
+}
+@media (max-width: 370px) {
+    .astronauttxt {
+        font-size: 7px;
+        
+    }
+    .astronautdugme {
+        font-size: 0.5rem;
+    }
+}

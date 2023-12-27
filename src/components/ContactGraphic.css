@@ -1,0 +1,244 @@
+.graphic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.graphic-container form {
+    max-width: 900px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+.graphic-container form input {
+    color: #fff;
+    width: 365px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+margin: 18px;
+font-size: 15px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.graphic-container form input::placeholder {
+    font-size: 24px;
+    text-align: center;
+}
+.graphic-container form textarea {
+    width: 750px;
+    border-radius: 100px;
+    border: 6px solid #57A0FF;
+    background: transparent;
+    height: 500px;
+    color: #fff;
+    outline: none;
+    padding-left:70px;
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: Inter;
+}
+.graphic-container form textarea::placeholder {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+#buttonsend {
+    width: 226px;
+    margin-left: 139px;
+    background-color: #57A0FF;
+	color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+}
+#buttonsend:hover {
+    background-color: transparent;
+    transition: .3s;
+}
+#website {
+    margin-bottom: 18px;
+}
+#budget {
+    color: #fff;
+    width: 365px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+justify-content: left;
+margin-top: 18px;
+cursor: pointer;
+font-size: 24px;
+}
+#budget option {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.graphic-container form select {
+    color: #fff;
+    width: 365px;
+    height: 71px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+margin: 18px;
+}
+#select {
+    font-size: 24px;
+    text-align: center;
+}
+#select option {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.pozadinskaslika {
+    margin-top: -700px;
+    position: relative;
+    z-index: -1;
+    text-align: right;
+    width: 60%;
+    float: right;
+    height: 100%;
+}
+.kontaktninaslov {
+    color: rgba(255, 255, 255, 0.20);
+font-size: 180px;
+font-style: normal;
+font-weight: 700;
+line-height:100%;
+text-transform: uppercase;
+}
+.kontaktnimanjinaslovi {
+    color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+text-transform: uppercase;
+}
+@media (max-width: 1300px) {
+    .pozadinskaslika {
+        margin-top: -720px;
+        width: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .pozadinskaslika {
+        margin-top: -570px;
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .pozadinskaslika {
+        margin-top: -420px;
+    }
+    .kontaktnimanjinaslovi {
+    font-size: 40px;
+    font-weight: 700;
+    
+    }
+    .graphic-container form {
+        height: 1200px;
+        margin-bottom: 20px;
+    }
+    .graphic-container form input {
+       
+     
+    margin: 5px;
+    font-size: 15px;
+    
+    }
+.graphic-container form textarea {
+    width: 82%;
+    border-radius: 100px;
+    border: 6px solid #57A0FF;
+    background: transparent;
+    height: 500px;
+    color: #fff;
+    outline: none;
+    padding-left:70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+#buttonsend {
+    width: 226px;
+    margin-left: 200px;
+    background-color: #57A0FF;
+	color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    display: grid;
+}
+}
+@media (max-width: 500px) {
+    .pozadinskaslika {
+        margin-top: -280px;
+
+    }
+    .kontaktnimanjinaslovi {
+        font-size: 30px;
+        font-weight: 700;
+        }
+    .graphic-container form {
+        height: 850px;
+    }
+    .graphic-container form textarea {
+        width: 90%;
+        border: 5px solid #57A0FF;
+        height: 250px;
+        border-radius: 60px;
+        padding-left:60px;
+        padding-right: 60px;
+        font-size: 20px;
+    }
+    .graphic-container form input {
+        color: #fff;
+        width: 70%;
+        height: 61px;
+        outline:none;
+        border-radius: 100px;
+    border: 5px solid #57A0FF;
+    background: transparent;
+    margin: 0px;
+    font-size: 15px;
+    }
+    #budget {
+        color: #fff;
+        width: 60%;
+        height: 76px;
+        outline:none;
+        border-radius: 100px;
+    border: 5px solid #57A0FF;
+    background: transparent;
+    justify-content: left;
+    margin-top: 18px;
+    cursor: pointer;
+    font-size: 24px;
+    }
+    .graphic-container form input::placeholder {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .graphic-container form textarea::placeholder {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}

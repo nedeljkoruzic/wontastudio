@@ -1,0 +1,39 @@
+.glavni {
+    width: 100%;
+}
+.rowww {
+    display: flex;
+    width: 100%;
+    place-content: center;
+    margin-bottom: 2px;
+}
+.columnn {
+  width: 50%;
+}
+.columnnn {
+    width: 100%;
+}
+.levaslika {
+    width: 100%;
+    position: relative;
+}
+.dvesrednjeslike {
+    width: 100%;
+    place-content: center;
+    position: relative;
+}
+.dvesrednjeslikedonja {
+    width: 100%;
+    place-content: center;
+    position: relative;
+    margin-top: -4px;
+}
+.desnaslika {
+    width: 100%;
+}
+@media (max-width: 800px) {
+    .dvesrednjeslikedonja {
+        
+        margin-top: -4px;
+    }
+}

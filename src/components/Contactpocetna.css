@@ -1,0 +1,158 @@
+.pocetna-container{
+	position: relative;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.pocetna-container form {
+    max-width: 900px;
+    height: 1000px;
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pocetna-container form input {
+    color: #fff;
+    width: 600px;
+    height: 91px;
+    outline:none;
+    border-radius: 100px;
+border: 6px solid #57A0FF;
+background: transparent;
+margin: 18px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.pocetna-container form textarea {
+    width: 600px;
+    border-radius: 100px;
+    border: 6px solid #57A0FF;
+    background: transparent;
+    height: 500px;
+    color: #fff;
+    outline: none;
+    padding-left:70px;
+    padding-right: 70px;
+    padding-top: 6px;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family: Inter;
+}
+.field::placeholder {
+    text-align: center;
+    font-size: 30px;
+}
+.field2::placeholder {
+    text-align: center;
+    font-size: 30px;
+}
+.dvacontanctbtn {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+.btn2{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+	background:#1E0B1E;
+    color: #fff;
+    border-radius: 50px;
+    border: 4px solid #57A0FF;
+    font-weight: 450;
+    font-size: 1.5rem;
+    padding: 19px 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn2:hover {
+    background-color: #57A0FF;
+    transition: .3s ;
+ }
+ @media (max-width: 800px) {
+    .pocetna-container form {
+        max-width: 900px;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pocetna-container form textarea {
+        width: 82%;
+    }
+    .pocetna-container form input {
+        color: #fff;
+        width: 70%;
+        margin: 10px;
+    }
+    .dvacontanctbtn {
+        gap: 4rem;
+    }
+    .btn2 {
+        margin-top: 1.5rem;
+        padding: 15px 40px;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+ }
+ @media (max-width: 600px) {
+    .dvacontanctbtn {
+        gap: 3rem;
+    }
+    .btn2 {
+        margin-top: 1.5rem;
+        padding: 12px 30px;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+ }
+ @media (max-width: 500px) {
+    .pocetna-container form {
+        max-width: 900px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pocetna-container form input {
+        width: 70%;
+        height: 61px;
+        border-radius: 100px;
+    border: 5px solid #57A0FF;
+    margin: 5px;
+    }
+    .pocetna-container form input::placeholder {
+        font-size: 18px;
+        text-align: center;
+    }
+    .pocetna-container form textarea {
+        border: 5px solid #57A0FF;
+        height: 250px;
+        font-size: 20px;
+        border-radius: 60px;
+        margin-top: 5px;
+    }
+    .pocetna-container form textarea::placeholder {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .dvacontanctbtn {
+        gap: 1rem;
+    }
+    .btn{
+        width: 45%;
+        font-size: 1.5rem;
+    }
+    .btn2 {
+        margin-top: 1.5rem;
+        padding: 8px 20px;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+ 
+ }

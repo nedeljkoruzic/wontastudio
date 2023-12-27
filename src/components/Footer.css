@@ -1,0 +1,211 @@
+.bojafootera {
+    background: linear-gradient(180deg, #AE0A44 5.24%, #FB4649 43.5%, #BE0A43 92.17%);
+    position: relative;
+    margin-top: 70px;
+}
+section {
+    padding: 20px 13% 30px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+}
+.belilogo {
+    width: 150px;
+    height: 150px;
+    margin-left: -60px;
+}
+.footer-content li {
+    margin-top: 18px;
+    margin-bottom: 16px;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-content li a {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-content li a:hover {
+    color: #6EAEFF;
+}
+.ikonice {
+    width: 100%;
+display: flex;
+place-content: center;
+gap: 36px;
+margin-top: 18px;
+padding-bottom: 20px;
+}
+.ikonice img {
+    width: 50px;
+    height: 50px;
+}
+.copyright {
+    width: 100%;
+display: flex;
+place-content: center;
+color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 20px;
+}
+@media (max-width: 1600px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+        gap: 3.5rem;
+    }
+}
+@media (max-width: 1150px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, auto));
+        gap: 3.5rem;
+    }
+}
+@media (max-width: 900px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+        gap: 3rem;
+    }
+    .belilogo {
+        width: 120px;
+        height: 120px;
+        margin-left: -60px;
+    }
+    .footer-content li {
+        margin-top: 18px;
+        margin-bottom: 16px;
+        list-style: none;
+        color: #fff;
+        font-size: 16px;
+    }
+    .footer-content li a {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+@media (max-width: 700px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20px, auto));
+        gap: 2.5rem;
+    }
+    .belilogo {
+        width: 110px;
+        height: 110px;
+        margin-left: -60px;
+    }
+    .footer-content li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .footer-content li a {
+        font-size: 15px;
+        font-weight: 400;
+      
+    }
+}
+@media (max-width: 610px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0px, auto));
+        gap: 2.5rem;
+    }
+    .belilogo {
+        width: 100px;
+        height: 100px;
+        margin-left: -60px;
+    }
+    .footer-content li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .footer-content li a {
+        font-size: 13px;
+        font-weight: 400;
+      
+    }
+}
+@media (max-width: 550px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0px, auto));
+        gap: 2.2rem;
+    }
+    .belilogo {
+        width: 90px;
+        height: 90px;
+        margin-left: -50px;
+    }
+    .footer-content li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .footer-content li a {
+        font-size: 12px;
+        font-weight: 400;
+      
+    }
+}
+@media (max-width: 500px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 3.5rem;
+    }
+    .belilogo {
+        margin-left: 10%;
+       width: 150px;
+       height: 150px;
+        display: block;
+    }
+    .footer-content li {
+        margin-bottom: 1px;
+        margin-left: 10%;
+      font-size: 20px;
+    }
+    .footer-content li a {
+       
+      font-size: 20px;
+    }
+    .ikonice img {
+        width: 35px;
+        height: 35px;
+    }
+    .copyright {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .ikonice img {
+        width: 26px;
+        height: 26px;
+    }
+}
+@media (max-width: 350px) {
+    .ikonice img {
+        width: 23px;
+        height: 23px;
+    }
+}
+@media (max-width: 320px) {
+    .ikonice img {
+        width: 18px;
+        height: 18px;
+    }
+}

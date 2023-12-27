@@ -1,0 +1,15 @@
+.bloghero {
+    width: 100%;
+}
+.blogheromob {
+    display: none;
+}
+@media (max-width: 500px) {
+   .bloghero {
+    display: none;
+   }
+   .blogheromob {
+    display: block;
+    width: 100%;
+   }
+}

@@ -1,0 +1,17 @@
+.kolone {
+    float: left;
+    width: 25%;
+   height: 100%;
+}
+@media (max-width: 500px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .kolone {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}

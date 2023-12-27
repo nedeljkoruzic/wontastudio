@@ -1,0 +1,20 @@
+.row {
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 25%;
+    
+}
+@media (max-width: 500px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .column {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}

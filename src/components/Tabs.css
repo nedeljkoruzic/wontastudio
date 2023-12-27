@@ -1,0 +1,87 @@
+.tridugmeta2 {
+    display: flex;
+    width: 100%;
+    position:relative;
+    justify-content:center;
+    text-align: center;
+    gap: 20px;
+   margin-bottom: 30px;
+}
+.flex-fill a {
+    font-size: 32px;
+  text-decoration: none;
+  margin: 40px;
+  position: relative;
+  color: #fff;
+}
+.flex-fill.active {
+    color: #57A0FF;
+}
+.flex-fill:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    height: 2px;
+    width: 0%;
+    left:0%;
+    background-color: #57A0FF;
+   transition: 0.6s;
+}
+.flex-fill:hover::after {
+    width: 100%;
+}
+.flex-fill:hover {
+    color: #57A0FF;
+}
+.content {
+    display: none;
+}
+.show-content {
+    display: inline;
+    margin-top: 30px;
+}
+.serviceheroimg {
+    width: 100%;
+    height: 100%;
+}
+.serviceheroimgmob {
+    display: none;
+}
+@media (max-width: 1300px) {
+    .flex-fill {
+        font-size: 26px;
+        margin: 24px;
+    }
+}
+@media (max-width: 900px) {
+    .flex-fill {
+        font-size: 20px;
+        margin: 12px;
+    }
+}
+@media (max-width: 600px) {
+    .tridugmeta2 {
+        gap: 10px;
+    }
+    .flex-fill {
+        font-size: 17px;
+        margin: 12px;
+    }
+}
+@media (max-width: 500px) {
+    .tridugmeta2 {
+        gap: 10px;
+    }
+    .flex-fill {
+        font-size: 10px;
+        margin: 8px;
+    }
+    .serviceheroimg {
+        display: none;
+    }
+    .serviceheroimgmob {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
